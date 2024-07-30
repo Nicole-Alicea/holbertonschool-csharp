@@ -1,0 +1,15 @@
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.exe
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.deps.json
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.runtimeconfig.json
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.dll
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\bin\Debug\net8.0\1-new_project.pdb
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.AssemblyInfoInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.AssemblyInfo.cs
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.csproj.CoreCompileInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.sourcelink.json
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.dll
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\refint\1-new_project.dll
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.pdb
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\1-new_project.genruntimeconfig.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\1-new_project\obj\Debug\net8.0\ref\1-new_project.dll
