@@ -1,0 +1,6 @@
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\6-print_string\obj\Debug\netcoreapp2.1\6-print_string.csproj.AssemblyReference.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\6-print_string\obj\Debug\netcoreapp2.1\6-print_string.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\6-print_string\obj\Debug\netcoreapp2.1\6-print_string.AssemblyInfoInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\6-print_string\obj\Debug\netcoreapp2.1\6-print_string.AssemblyInfo.cs
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\6-print_string\obj\Debug\netcoreapp2.1\6-print_string.csproj.CoreCompileInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-hello_world\6-print_string\obj\Debug\netcoreapp2.1\6-print_string.sourcelink.json

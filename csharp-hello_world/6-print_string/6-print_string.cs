@@ -5,7 +5,9 @@ class Program
 	static void Main(string[] args)
 	{
 		string str = "Holberton School";
-		Console.WriteLine(string.Concat(Enumerable.Repeat(str, 3)));
-        Console.WriteLine(str.Substring(0, 9));
+        string repeated_str = string.Concat(Enumerable.Repeat(str, 3));
+        string substring = str.Substring(0, 9);
+		Console.WriteLine(repeated_str);
+        Console.WriteLine(substring);
         }
 }
