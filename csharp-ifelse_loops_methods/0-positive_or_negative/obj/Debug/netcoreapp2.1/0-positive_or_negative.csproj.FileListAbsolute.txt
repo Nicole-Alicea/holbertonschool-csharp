@@ -1,0 +1,6 @@
+C:\Users\kikig\holbertonschool-csharp\csharp-ifelse_loops_methods\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.csproj.AssemblyReference.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-ifelse_loops_methods\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikig\holbertonschool-csharp\csharp-ifelse_loops_methods\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.AssemblyInfoInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-ifelse_loops_methods\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.AssemblyInfo.cs
+C:\Users\kikig\holbertonschool-csharp\csharp-ifelse_loops_methods\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.csproj.CoreCompileInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-ifelse_loops_methods\0-positive_or_negative\obj\Debug\netcoreapp2.1\0-positive_or_negative.sourcelink.json
