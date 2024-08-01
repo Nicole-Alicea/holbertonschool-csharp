@@ -6,7 +6,7 @@ class Program
     {
         for (int number = 0; number <= 98; number++)
         {
-            Console.Write(number + " = " + number.ToString("X"));
+            Console.Write(number + " = " + number.ToString("X")\n);
         }
     }
 }
