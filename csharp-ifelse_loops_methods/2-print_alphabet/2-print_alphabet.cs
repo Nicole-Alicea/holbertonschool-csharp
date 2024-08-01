@@ -2,11 +2,11 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         for (char c = 'a'; c <= 'z'; c++)
         {
-            Console.Write('c');
+            Console.Write(c);
         }
     }
 }
