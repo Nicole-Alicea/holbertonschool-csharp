@@ -10,7 +10,10 @@ class Program
             {
                 Console.Write($"{number:D2}\n");
             }
-            Console.Write($"{number:D2}, ");
+            else
+            {
+                Console.Write($"{number:D2}, ");
+            }
         }
     }
 
