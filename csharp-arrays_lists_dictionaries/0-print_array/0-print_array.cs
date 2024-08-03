@@ -15,10 +15,15 @@ class Array
         }
         else
         {
+            int[] array = new int[size];
+
             for (int x = 0; x < size; x++);
             {
+                array[x] = x;
                 Console.Write($"{x} ");
             }
+            Console.WriteLine();
+            return array;
         }
     }
 }
