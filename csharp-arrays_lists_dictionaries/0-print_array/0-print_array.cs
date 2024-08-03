@@ -11,7 +11,7 @@ class Array
         else if (sizeof < 0)
         {
             Console.WriteLine("Size cannot be negative");
-            return null
+            return null;
         }
         else
         {
