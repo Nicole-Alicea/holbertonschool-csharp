@@ -13,5 +13,11 @@ class Array
             }
         }
         Console.WriteLine();
+        
+        if (array == null)
+        {
+            Console.WriteLine();
+            return;
+        }
     }
 }
