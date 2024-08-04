@@ -9,21 +9,20 @@ class Array
             Console.WriteLine("Size cannot be negative");
             return null;
         }
-        
-        var array = new int[size];
 
-        if (size == 0)
-	    {
-	        Console.WriteLine();
-	        return array;
+        int[] array = new int[size];
+
+        for (int x = 0; x < size; x++)
+        {
+            array[x] = x;
+            Console.Write(x);
+
+            if (x < size - 1)
+            {
+                Console.Write(" ");
+            }
         }
 
-        
-        for(int x = 0; x < size; x++) 
-            {
-                Console.Write("{0}{1}",i , i != size-1 ? " ":"");
-                array[x] =  x; 
-            }
         Console.WriteLine();
         return array;
     }
