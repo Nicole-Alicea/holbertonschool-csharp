@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-dotnet new console --output 1-new_project
-dotnet build 1-new_project
+
+# Initialize new project
+dotnet new console -o 1-new_project && cd/1-new_project && dotnet build
