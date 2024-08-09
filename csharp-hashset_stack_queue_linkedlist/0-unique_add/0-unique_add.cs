@@ -8,7 +8,11 @@ public class List
         // HashSets contain only unique elements
         HashSet<int> uniqueIntegers = new HashSet<int>(myList);
 
-        // Will add all of the unique integers
-        return uniqueIntegers.Sum();
+        int sum = 0;
+        foreach (int integer in uniqueIntegers)
+        {
+            sum += integer;
+        }
+        return sum;
     }
 }
