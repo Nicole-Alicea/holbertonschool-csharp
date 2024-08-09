@@ -8,7 +8,11 @@ public class List
     {
         HashSet<int> uniqueIntegers = new HashSet<int>(myList);
         
-        int integerSum = uniqueIntegers.Sum();
+        int integerSum = 0;
+        foreach (int integer in uniqueIntegers)
+        {
+            integerSum += integer;
+        }
         return integerSum;
     }
 }
