@@ -10,9 +10,9 @@ public class List
         HashSet<int> uniqueIntegers = new HashSet<int>(myList);
 
         int sum = 0;
-        foreach (int integer in uniqueIntegers)
+        foreach (int x in uniqueIntegers)
         {
-            sum += integer;
+            sum += x;
         }
         return sum;
     }
