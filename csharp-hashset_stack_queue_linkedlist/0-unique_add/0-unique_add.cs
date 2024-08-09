@@ -6,13 +6,11 @@ public class List
 {
     public static int Sum(List<int> myList)
     {
-        // HashSets contain only unique elements
-        HashSet<int> uniqueIntegers = new HashSet<int>(myList);
-
+        HashSet<int> uniqueNumbers = new HashSet<int>(myList);
         int sum = 0;
-        foreach (int x in uniqueIntegers)
+        foreach (int number in uniqueNumbers)
         {
-            sum += x;
+            sum += number;
         }
         return sum;
     }
