@@ -29,7 +29,9 @@ public class List
                 diffIntegers.Add(integer);
             }
         }
-        // Will return the sorted integers        
-        return diffIntegers.Sort();
+        // Will sort the integers
+        diffIntegers.Sort();
+
+        return diffIntegers;
     }
 }
