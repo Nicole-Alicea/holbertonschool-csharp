@@ -1,23 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class List
+public class List
 {
     public static List<int> DifferentElements(List<int> list1, List<int> list2)
     {
-        var newList = new List<int>();
-        var newList1 = new List<int>();
-        foreach (int i in list1)
-            foreach (int j in list2)
-                if (i == j)
-                    newList.Add(j);
-        list1.AddRange(list2);
-        list1.Sort();
-        
-        foreach(int x in list1)
-            if (newList.Contains(x) == false)
-                newList1.Add(x);
+        // The HashSets will store the unique integers in each list
+        HashSet<int> differentIntegers1 = new HashSet<int>(list1);
+        HashSet<int> differentIntegers2 = new HashSet<int>(list2);
 
-        return(newList1);
+        // Creates a list that will store the different integers
+        List<int> diffIntegers = new List<int>();
+
+        // This will add the integers that are in differentIntegers1 but not in differentIntegers2
+        foreach (int integer in differentIntegers1)
+        {
+            if (!differentIntegers2.Contains(integer))
+            {
+                diffIntegers.Add(integer);
+            }
+        }
+
+        // This will add the integers that are in differentIntegers2 but not in differentIntegers1
+        foreach (int integer in differentIntegers2)
+        {
+            if (!differentIntegers1.Contains(integer))
+            {
+                diffIntegers.Add(integer);
+            }
+        }
+        diffIntegers.Sort();       
+        return diffIntegers;
     }
 }
