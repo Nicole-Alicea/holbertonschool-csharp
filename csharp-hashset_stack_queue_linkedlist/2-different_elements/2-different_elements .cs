@@ -5,33 +5,27 @@ public class List
 {
     public static List<int> DifferentElements(List<int> list1, List<int> list2)
     {
-        // The HashSets will store the unique integers in each list
-        HashSet<int> differentIntegers1 = new HashSet<int>(list1);
-        HashSet<int> differentIntegers2 = new HashSet<int>(list2);
+        HashSet<int> set1 = new HashSet<int>(list1);
+        HashSet<int> set2 = new HashSet<int>(list2);
+        List<int> differentElements = new List<int>();
 
-        // Creates a list that will store the different integers
-        List<int> diffIntegers = new List<int>();
-
-        // This will add the integers that are in differentIntegers1 but not in differentIntegers2
-        foreach (int integer in differentIntegers1)
+        foreach (int element in set1)
         {
-            if (!differentIntegers2.Contains(integer))
+            if (!set2.Contains(element))
             {
-                diffIntegers.Add(integer);
+                differentElements.Add(element);
             }
         }
 
-        // This will add the integers that are in differentIntegers2 but not in differentIntegers1
-        foreach (int integer in differentIntegers2)
+        foreach (int element in set2)
         {
-            if (!differentIntegers1.Contains(integer))
+            if (!set1.Contains(element))
             {
-                diffIntegers.Add(integer);
+                differentElements.Add(element);
             }
         }
-        // Will sort the integers
-        diffIntegers.Sort();
 
-        return diffIntegers;
+        differentElements.Sort();
+        return differentElements;
     }
 }
