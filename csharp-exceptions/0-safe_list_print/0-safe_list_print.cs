@@ -5,16 +5,14 @@ class List
 {
     public static int SafePrint(List<int> myList, int n)
     {
-        for (int x = 0; x < n; x++)
+        int x = 0;
+        try
         {
-            try
-            {
+            for(; x < n; x++)
                 Console.WriteLine(myList[x]);
-            }
-            catch
-            {
-                return x;
-            }
+        }
+        catch
+        {
         }
         return x;
     }
