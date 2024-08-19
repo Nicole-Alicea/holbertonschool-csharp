@@ -6,17 +6,16 @@ class List
     public static int SafePrint(List<int> myList, int n)
     {
         int count = 0;
-        int x = 0;
-        
-        for(; x < n; x++)
         try
         {
-            Console.WriteLine(myList[x]);
-            count++;
+            for (int x = 0; x < n; x++)
+            {
+                Console.WriteLine(myList[x]);
+                count++;
+            }
         }
-        catch
+        catch (ArgumentOutOfRangeException)
         {
-            return count;
         }
         return count;
     }
