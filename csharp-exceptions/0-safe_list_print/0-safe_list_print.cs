@@ -15,7 +15,7 @@ class List
                 count++;
             }
         }
-        catch(ArgumentOutOfRangeException)
+        catch (ArgumentOutOfRangeException)
         {
             Console.WriteLine("The amount of elements requested to be printed from the list is out of range.");
         }
