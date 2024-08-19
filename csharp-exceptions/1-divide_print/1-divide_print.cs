@@ -9,7 +9,7 @@ class Int
         {
             int result = a / b;
         }
-        catch
+        catch (DivideByZeroException)
         {
             Console.WriteLine("Cannot divide by zero");
         }
