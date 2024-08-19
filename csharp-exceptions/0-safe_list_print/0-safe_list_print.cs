@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Exception;
 
 public class List
 {
@@ -8,17 +7,17 @@ public class List
     {
         int count = 0;
 
-        try
+        for (int x = 0; x < n; x++)
         {
-            for (int x = 0; x < n; x++)
+            try
             {
                 Console.WriteLine(myList[x]);
                 count++;
             }
-        }
-        catch(ArgumentOutOfRangeException)
-        {
-            Console.WriteLine("The amount of elements requested to be printed from the list is out of range.");
+            catch(ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("The amount of elements requested to be printed from the list is out of range.");
+            }
         }
         return count;
     }
