@@ -7,7 +7,7 @@ class Int
     {
         try
         {
-            result = a / b;
+            int result = a / b;
         }
         catch
         {
