@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class List
+class List
 {
     public static int SafePrint(List<int> myList, int n)
     {
