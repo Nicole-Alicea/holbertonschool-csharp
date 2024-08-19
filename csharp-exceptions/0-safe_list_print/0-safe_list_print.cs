@@ -6,6 +6,7 @@ class List
     public static int SafePrint(List<int> myList, int n)
     {
         int count = 0;
+
         try
         {
             for (int x = 0; x < n; x++)
@@ -14,9 +15,9 @@ class List
                 count++;
             }
         }
-        catch (ArgumentOutOfRangeException)
+        catch(ArgumentOutOfRangeException)
         {
-            // This catch is to avoid the code breaking when executed
+            Console.WriteLine("The amount of elements requested to be printed from the list is out of range.");
         }
         return count;
     }
