@@ -16,7 +16,7 @@ class List
         }
         catch (ArgumentOutOfRangeException)
         {
-            
+            // This catch is to avoid the code breaking when executed
         }
         return count;
     }
