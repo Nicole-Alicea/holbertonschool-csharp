@@ -16,7 +16,6 @@ public class List
             }
             catch
             {
-                Console.WriteLine("The amount of elements requested to be printed from the list is out of range.");
                 return count;
             }
         }
