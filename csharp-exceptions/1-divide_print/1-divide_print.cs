@@ -4,9 +4,10 @@ class Int
 {
     public static void divide(int a, int b)
     {
+        int result = 0;
         try
         {
-            int result = a / b;
+            result = (a / b);
         }
         catch (DivideByZeroException)
         {
