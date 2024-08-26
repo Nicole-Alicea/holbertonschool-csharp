@@ -5,9 +5,7 @@ namespace Enemies
     /// <summary> Defines a zombie. </summary>
     public class Zombie
     {
-        /// <summary>
-        /// Health of the zombie. This field is private and can only be accessed through the GetHealth method.
-        /// </summary>
+        //This field is private and stores the health of the zombie.
         private int health;
 
         /// <summary>
@@ -30,12 +28,12 @@ namespace Enemies
             }
             health = value;
         }
-    }
 
-    /// <summary> Returns the health value of a Zombie object. </summary>
-    /// <returns> The value of health of the Zombie object. </returns>
-    public int GetHealth()
-    {
-        return health;
+        /// <summary> Returns the health value of a Zombie object. </summary>
+        /// <returns> The value of health of the Zombie object. </returns>
+        public int GetHealth()
+        {
+            return health;
+        }
     }
 }
