@@ -1,10 +1,6 @@
-﻿using System;
-
-namespace Enemies
+﻿namespace Enemies
 {
-    /// <summary>
-    Defines a zombie.
-    /// </summary>
+    /// <summary> Defines a zombie. </summary>
     public class Zombie
     {
 
