@@ -29,10 +29,10 @@ namespace Enemies
         }
     }
 
-    /// <summary> Retrieves the health value of a Zombie object and returns it. </summary>
-    /// <returns> Returns the value of health of the Zombie object. </returns>
+    /// <summary> Returns the health value of a Zombie object. </summary>
+    /// <returns> The value of health of the Zombie object. </returns>
     public int GetHealth()
     {
-        return Zombie.health;
+        return health;
     }
 }
