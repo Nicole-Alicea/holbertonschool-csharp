@@ -1,9 +1,10 @@
 using NUnit.Framework;
+using MyMath;
 
 namespace MyMath.Tests
 {
-   [TestFixture]
     /// <summary> Tests for Add() </summary>
+   [TestFixture]
     public class OperationsTests
     {
         [Test]
