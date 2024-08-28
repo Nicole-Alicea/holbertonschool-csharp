@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0KMao3MXftk=",
+  "dgSpecHash": "iXiFWRzif3c=",
   "success": true,
   "projectFilePath": "C:\\Users\\kikig\\holbertonschool-csharp\\csharp-tdd\\0-add\\MyMath\\MyMath.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kikig\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\kikig\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
