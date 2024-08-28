@@ -11,8 +11,7 @@ namespace MyMath
         /// <returns> The sum of the two integers. </returns>
         public static int Add(int a, int b)
         {
-            int result = (a + b);
-            return result;
+            return a + b;
         }
     }
 }
