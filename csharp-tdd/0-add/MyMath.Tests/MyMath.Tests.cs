@@ -7,6 +7,9 @@ namespace MyMath.Tests
    [TestFixture]
     public class OperationsTests
     {
+        /// <summary>
+        /// Test for adding positive integers.
+        /// </summary>
         [Test]
         public void positiveInt()
         {
@@ -15,6 +18,9 @@ namespace MyMath.Tests
             Assert.AreEqual(6, result);
         }
 
+        /// <summary>
+        /// Test for adding a negative integer to a positive one.
+        /// </summary>
         [Test]
         public void negativeInt()
         {
@@ -23,6 +29,9 @@ namespace MyMath.Tests
             Assert.AreEqual(-8, result);
         }
         
+        /// <summary>
+        /// Test that adds two negative integers.
+        /// </summary>
         [Test]
         public void bothNegativeInt()
         {
@@ -31,6 +40,9 @@ namespace MyMath.Tests
             Assert.AreEqual(-20, result);
         }
 
+        /// <summary>
+        /// Test that adds a negative integer to zero.
+        /// </summary>
         [Test]
         public void CeroInt()
         {
@@ -39,6 +51,9 @@ namespace MyMath.Tests
             Assert.AreEqual(-20, result);
         }
 
+        /// <summary>
+        /// Test where both integers to be added are 0.
+        /// </summary>
          [Test]
         
         public void BothCeroInt()
