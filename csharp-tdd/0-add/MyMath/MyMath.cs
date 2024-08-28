@@ -6,7 +6,7 @@
 public class Operations
 {
     /// <summary>
-    /// Adds two integers.
+    /// Adds two integers and returns the result.
     /// </summary>
     /// <param name="a">The first integer to be added.</param>
     /// <param name="b">The second integer to be added.</param>
