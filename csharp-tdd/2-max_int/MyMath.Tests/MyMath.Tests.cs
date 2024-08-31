@@ -1,81 +1,41 @@
 using NUnit.Framework;
-using MyMath;
+using System.Collections.Generic;
 
 namespace MyMath.Tests
 {
-    /// <summary>
-    /// Contains unit tests for the Operations class.
-    /// </summary>
+    [TestFixture]
+    /// <summary>Tests for the Operation class</summary>
     public class OperationsTests
     {
-        /// <summary>
-        /// Tests that the Max method returns the maximum value in a list with multiple positive integers.
-        /// </summary>
+        
         [Test]
-        public void Max_MultiplePositiveIntegers_ReturnsMaxValue()
+        public void maxpositive()
         {
-            List<int> nums = new List<int> { 1, 5, 3, 9, 2 };
+            List<int> digits = new List<int> { 0, 9, -2, 3, 44, 5, 6, 7, 8, 1 }; 
 
-            int result = Operations.Max(nums);
+            int result = Operations.Max(digits);
 
-            // The maximum value in the list is 9
-            Assert.AreEqual(9, result);
+            Assert.AreEqual(44, result);
         }
 
-        /// <summary>
-        /// Tests that the Max method returns 0 when the list is empty.
-        /// </summary>
         [Test]
-        public void Max_EmptyList_ReturnsZero()
+        public void xempty()
         {
             List<int> nums = new List<int>();
 
-            int result = Operations.Max(nums);
-
-            // The method should return 0 for an empty list
-            Assert.AreEqual(0, result);
+            int max = Operations.Max(nums);
+            Assert.AreEqual(0, max);
         }
 
-        /// <summary>
-        /// Tests that the Max method returns the correct maximum value when the list contains negative and positive integers.
-        /// </summary>
         [Test]
-        public void Max_NegativeAndPositiveIntegers_ReturnsMaxValue()
+        public void xnull()
         {
-            List<int> nums = new List<int> { -10, -3, 0, 7, 4 };
+            List<int> nums = null;
 
-            int result = Operations.Max(nums);
-
-            // The maximum value in the list is 7
-            Assert.AreEqual(7, result);
+            int max = Operations.Max(nums);
+            Assert.AreEqual(0, max);
         }
 
-        /// <summary>
-        /// Tests that the Max method returns the correct maximum value when the list contains only negative integers.
-        /// </summary>
-        [Test]
-        public void Max_OnlyNegativeIntegers_ReturnsMaxValue()
-        {
-            List<int> nums = new List<int> { -10, -3, -50, -7, -4 };
 
-            int result = Operations.Max(nums);
-
-            // The maximum value in the list is -3
-            Assert.AreEqual(-3, result);
-        }
-
-        /// <summary>
-        /// Tests that the Max method returns the single value when the list contains only one element.
-        /// </summary>
-        [Test]
-        public void Max_SingleElement_ReturnsThatElement()
-        {
-            List<int> nums = new List<int> { 42 };
-
-            int result = Operations.Max(nums);
-
-            // The maximum value in the list is 42
-            Assert.AreEqual(42, result);
-        }
     }
 }

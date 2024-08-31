@@ -19,20 +19,17 @@ namespace MyMath
             {
                 return 0;
             }
+            
+            int max_integer = nums[0];
 
-            else
+            foreach(int x in nums)
             {
-                int max_integer = nums[0];
-
-                foreach(int x in nums)
+                if (x > max_integer)
                 {
-                    if (x > max_integer)
-                    {
-                        max_integer = x;
-                    }
+                    max_integer = x;
                 }
-                return max_integer;
             }
+            return max_integer;
         }
     }
 }
