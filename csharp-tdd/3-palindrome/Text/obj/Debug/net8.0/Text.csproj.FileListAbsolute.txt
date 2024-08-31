@@ -1,0 +1,12 @@
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\bin\Debug\net8.0\Text.deps.json
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\bin\Debug\net8.0\Text.dll
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\bin\Debug\net8.0\Text.pdb
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\Text.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\Text.AssemblyInfoInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\Text.AssemblyInfo.cs
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\Text.csproj.CoreCompileInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\Text.sourcelink.json
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\Text.dll
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\refint\Text.dll
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\Text.pdb
+C:\Users\kikig\holbertonschool-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\net8.0\ref\Text.dll
