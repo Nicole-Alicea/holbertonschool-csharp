@@ -1,0 +1,1 @@
+This directory contains files handling inheritance in C#.
