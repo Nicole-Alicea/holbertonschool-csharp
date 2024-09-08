@@ -1,5 +1,8 @@
 ﻿using System;
 
+/// <summary>
+/// A class that checks the type of an object.
+/// </summary>
 public class Obj
 {
     /// <summary>
