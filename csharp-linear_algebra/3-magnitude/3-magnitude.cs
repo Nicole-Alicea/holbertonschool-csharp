@@ -20,7 +20,7 @@ public class VectorMath
             }
 
             // Calculates the magnitude (length) of the vector and rounds it to the nearest hundreth
-            return Math.Round(Math.Sqrt(sumOfSquaredNumbers));
+            return Math.Round(Math.Sqrt(sumOfSquaredNumbers), 2);
         }
 
         // If the vector is not 2D or 3D, this method returns -1
