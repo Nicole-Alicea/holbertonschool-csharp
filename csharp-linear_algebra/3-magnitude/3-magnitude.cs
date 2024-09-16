@@ -6,7 +6,10 @@ public class VectorMath
     /// Calculates and returns the length of a given vector.
     /// </summary>
     /// <param name="vector"> The vector to check. </param>
-    /// <returns> The length of a given 2D or 3D vector rounded to the nearest hundreth, or -1 if no vector is given. </returns>
+    /// <returns>
+    /// The length of a given 2D or 3D vector rounded to the nearest hundreth.
+    /// Will return -1 if the vector is not 2D or 3D.
+    /// </returns>
     public static double Magnitude(double[] vector)
     {
         // Checks if the given vector is 2D or 3D
