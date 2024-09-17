@@ -32,11 +32,7 @@ public class VectorMath
 
             return result;
         }
-
-        // If any of the vectors is not 2D or 3D, or if they are not the same size, return a vector containing -1.
-        else
-        {
-            return new double[] { -1 };
-        }
+        
+        return new double[] { -1 };
     }
 }
