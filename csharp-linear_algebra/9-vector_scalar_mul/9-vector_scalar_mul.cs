@@ -30,7 +30,7 @@ public class VectorMath
         // Checks to see if the given vector is 3D.
         else if (vector.Length == 3)
         {
-            double[] result = { 0, 0 };
+            double[] result = { 0, 0, 0 };
 
             result[0] = vector[0] * scalar;
             result[1] = vector[1] * scalar;
