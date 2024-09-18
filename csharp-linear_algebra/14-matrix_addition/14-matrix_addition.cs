@@ -17,7 +17,7 @@ public class MatrixMath
     public static double[,] Add(double[,] matrix1, double[,] matrix2)
     {
         // Checks if both matrices are 2D
-        if (matrix1.rank == 2 && matrix2.rank == 2)
+        if (matrix1.Rank == 2 && matrix2.Rank == 2)
         {
             double[,] result = { { 0, 0 }, { 0, 0 } };
 
@@ -30,7 +30,7 @@ public class MatrixMath
         }
 
         // Checks if both matrices are 3D
-        if (matrix1.rank == 3 && matrix2.rank == 3)
+        if (matrix1.Rank == 3 && matrix2.Rank == 3)
         {
             double[,] result = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
 
