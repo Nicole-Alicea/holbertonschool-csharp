@@ -30,7 +30,7 @@ public class MatrixMath
         }
 
         // Checks if both matrices are 3D
-        if (matrix1.Rank == 3 && matrix2.Rank == 3)
+        else if (matrix1.Rank == 3 && matrix2.Rank == 3)
         {
             double[,] result = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
 
