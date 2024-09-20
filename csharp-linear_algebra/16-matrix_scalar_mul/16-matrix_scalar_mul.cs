@@ -32,7 +32,7 @@ public class MatrixMath
         // Checks if matrix is 3D
         else if (matrix.GetLength(0) == 3 && matrix.GetLength(1) == 3)
         {
-            double[,] result = { {0, 0}, {0, 0}, {0, 0} };
+            double[,] result = { {0, 0, 0}, {0, 0, 0}, {0, 0, 0} };
 
             result[0, 0] = matrix[0, 0] * scalar;
             result[0, 1] = matrix[0, 1] * scalar;
