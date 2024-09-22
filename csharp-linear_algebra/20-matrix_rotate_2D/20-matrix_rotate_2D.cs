@@ -27,9 +27,9 @@ class MatrixMath
 		double[,] matrixRotation = {{Math.Cos(angle), Math.Sin(angle)}, {-1 * Math.Sin(angle), Math.Cos(angle)}};
 		double[,] transformedPoint = new double[2, 2];
 
-		for (int i = 0; i < 2; i++)
+		for (int i = 0; i < row; i++)
         {
-			for (int j = 0; j < 2; j++)
+			for (int j = 0; j < column; j++)
             {
                 for (int k = 0; k < 2; k++)
                 {
