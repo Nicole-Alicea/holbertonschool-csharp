@@ -14,34 +14,23 @@ class MatrixMath
     /// If the matrix is not a 2D matrix, it will return [-1].
     /// If the matrix is non-invertible, it will return [-1].
     /// </returns>
-    public static double[,] Inverse(double[,] matrix)
+    public static double[,] Inverse2D(double[,] matrix)
     {
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
+        int row = matrix.GetLength(0);
+        int column = matrix.GetLength(1);
+        
+        if (row != 2 && column != 2)
+        {
+            return new double[,] {{-1}};
+        }
 
-        if (rows != 2)
+        double det = (matrix[0,0] * matrix[1, 1]) - (matrix[0, 1] * matrix[1, 0]);
+        if (det == 0)
         {
-            return new double[,] { { -1 } };
+            return new double[,] {{-1}};
         }
-            
-        else
-        {
-            if (matrix[0, 0] == 7)
-            {
-                double[,] result = { {0.15, -0.08}, {0.03, -0.18 } };
-                return result;
-            }
-            if (matrix[0, 0] == 2)
-            {
-                double[,] result = { {0.5, 0},{-0.67, -0.17} };
-                return result;
-            }
-            if (matrix[0, 0] == 3)
-            {
-                double[,] matrix1 =  { { 3, -3 }, { 1, -1 } };
-                return new double[,] { { -1 } };
-            }
-        }
-        return new double[,] { { -1 } };
+
+        double[,] inverse = new double[,] {{Math.Round((1 / det) * matrix[1, 1], 2), Math.Round((1 / det) * -matrix[0, 1], 2)}, {Math.Round((1 / det) * -matrix[1, 0], 2), Math.Round((1 / det) * matrix[0, 0],2)}};
+        return inverse;
     }
 }
