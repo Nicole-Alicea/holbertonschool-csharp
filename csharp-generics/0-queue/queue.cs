@@ -1,5 +1,9 @@
 ﻿using System;
 
+/// <summary>
+/// Class for Queue operations.
+/// </summary>
+/// <typeparam name="T"></typeparam>
 public class Queue<T>
 {
     /// <summary>
