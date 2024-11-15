@@ -3,7 +3,7 @@
 /// <summary>
 /// Class for Queue operations.
 /// </summary>
-public class Queue<T>
+class Queue<T>
 {
     /// <summary>
     /// Checks and returns the Queue's type.
