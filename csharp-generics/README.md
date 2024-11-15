@@ -1,0 +1,1 @@
+This directory is dedicated to a project in which a Queue was implemented in C# with a singly linked list and generics. The use of System.Collections or System.Collections.Generic was not allowed.
