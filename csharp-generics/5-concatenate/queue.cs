@@ -159,7 +159,7 @@ class Queue<T>
         {
             int x = 0;
             string result = "";
-            Node current = head;
+            current = head;
 
             if (typeof(T) == typeof(char))
             {
@@ -183,8 +183,8 @@ class Queue<T>
                     }
                 }
             }
+            return result;
         }
-        return result;
     }
 
     /// <summary>
