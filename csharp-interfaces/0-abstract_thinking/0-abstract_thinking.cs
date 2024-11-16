@@ -3,7 +3,7 @@
 /// <summary>
 /// Represents a base class with a name property and a custom string representation.
 /// </summary>
-public abstract class Base
+abstract class Base
 {
     public string name = "";
 
