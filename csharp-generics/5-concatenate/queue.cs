@@ -155,7 +155,7 @@ class Queue<T>
             return null;
         }
 
-        string result = string.Empty;
+        string result = "";
         Node current = head;
 
         while (current != null)
