@@ -5,10 +5,7 @@
 /// </summary>
 public abstract class Base
 {
-    /// <summary>
-    /// Gets or sets the name of the object.
-    /// </summary>
-    public string Name { get; set; }
+    public string name = "";
 
     /// <summary>
     /// Returns a string representation of the object.
@@ -16,6 +13,6 @@ public abstract class Base
     /// <returns>A string indicating the name and type of the object.</returns>
     public override string ToString()
     {
-        return $"{Name} is a {GetType().Name}";
+        return (this.name + " is a " + this.GetType().ToString());
     }
 }
