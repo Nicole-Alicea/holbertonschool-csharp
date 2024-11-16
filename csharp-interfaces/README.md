@@ -1,0 +1,1 @@
+This directory is dedicated to a project focused on C# Interfaces.
