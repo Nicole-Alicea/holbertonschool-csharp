@@ -155,15 +155,35 @@ class Queue<T>
             return null;
         }
 
-        string result = "";
-        Node current = head;
-
-        while (current != null)
+        else
         {
-            result += current.value;
-            current = current.next;
-        }
+            int x = 0;
+            string result = "";
+            Node current = head;
 
+            if (typeof(T) == typeof(char))
+            {
+                while (current != null)
+                {
+                    result += current.value;
+                    current = current.next;
+                }
+            }
+
+            else if (typeof(T) == typeof(string))
+            {
+                while (current != null)
+                {
+                    if (x != 0)
+                    {
+                        result += " ";
+                        result += current.value;
+                        current = current.next;
+                        x++;
+                    }
+                }
+            }
+        }
         return result;
     }
 
