@@ -1,0 +1,1 @@
+This directory focuses on C# delegates and how to use them.
