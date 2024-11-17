@@ -168,7 +168,7 @@ class Key : Base, ICollectable
             Console.WriteLine($"You pick up the {name}.");
         }
 
-        if (isCollected == true)
+        else
         {
             Console.WriteLine($"You have already picked up the {name}.");
         }
