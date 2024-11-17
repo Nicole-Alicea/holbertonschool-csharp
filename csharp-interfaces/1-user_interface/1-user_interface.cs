@@ -52,7 +52,7 @@ interface ICollectable
     /// <summary>
     /// Property that indicates if the object has been collected.
     /// </summary>
-    bool IsCollected { get; set; }
+    bool isCollected { get; set; }
 
     /// <summary>
     /// Method to collect the object.
@@ -66,7 +66,7 @@ interface ICollectable
 class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     public int durability { get; set; }
-    public bool IsCollected { get; set; }
+    public bool isCollected { get; set; }
 
     /// <summary>
     /// Takes place when the object interacts with something.
