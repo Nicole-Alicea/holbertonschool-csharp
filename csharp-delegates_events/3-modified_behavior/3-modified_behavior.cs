@@ -135,4 +135,4 @@ enum Modifier
 /// </summary>
 /// <param name="baseValue"> Normal attack. </param>
 /// <param name="modifier"> Modifier that will be applied to the base value. </param>
-public delegate float CalculateModifier(float baseValue, Modifier modifier);
+delegate float CalculateModifier(float baseValue, Modifier modifier);
