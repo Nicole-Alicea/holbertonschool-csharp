@@ -22,9 +22,6 @@ abstract class Base
 /// </summary>
 interface IInteractive
 {
-    /// <summary>
-    /// Method to interact with the object.
-    /// </summary>
     void Interact();
 }
 
@@ -33,14 +30,7 @@ interface IInteractive
 /// </summary>
 interface IBreakable
 {
-    /// <summary>
-    /// Property that represents the durability of the object.
-    /// </summary>
     int durability { get; set; }
-
-    /// <summary>
-    /// Method to break the object.
-    /// </summary>
     void Break();
 }
 
@@ -49,14 +39,7 @@ interface IBreakable
 /// </summary>
 interface ICollectable
 {
-    /// <summary>
-    /// Property that indicates if the object has been collected.
-    /// </summary>
     bool isCollected { get; set; }
-
-    /// <summary>
-    /// Method to collect the object.
-    /// </summary>
     void Collect();
 }
 
