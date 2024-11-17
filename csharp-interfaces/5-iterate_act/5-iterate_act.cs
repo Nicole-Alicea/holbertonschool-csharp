@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 
 /// <summary>
 /// Represents a base class with a name property and a custom string representation.
