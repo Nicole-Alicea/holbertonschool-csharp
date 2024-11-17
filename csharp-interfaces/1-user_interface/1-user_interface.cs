@@ -36,7 +36,7 @@ interface IBreakable
     /// <summary>
     /// Property that represents the durability of the object.
     /// </summary>
-    int Durability { get; set; }
+    int durability { get; set; }
 
     /// <summary>
     /// Method to break the object.
@@ -65,29 +65,21 @@ interface ICollectable
 /// </summary>
 class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
+    public int durability { get; set; }
+    public bool IsCollected { get; set; }
+
     public void Interact()
     {
-        Console.WriteLine($"{name} has been interacted with.");
+        
     }
-
-    public int Durability { get; set; }
 
     public void Break()
     {
-        Console.WriteLine($"{name} has been broken.");
+        
     }
-
-    public bool IsCollected { get; set; }
 
     public void Collect()
     {
-        Console.WriteLine($"{name} has been collected.");
-    }
-
-    public TestObject(string name, int durability)
-    {
-        this.name = name;
-        this.Durability = durability;
-        this.IsCollected = false;
+        
     }
 }
