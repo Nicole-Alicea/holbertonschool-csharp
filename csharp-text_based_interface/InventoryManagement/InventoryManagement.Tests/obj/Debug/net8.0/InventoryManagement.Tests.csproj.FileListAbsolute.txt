@@ -1,0 +1,6 @@
+C:\Users\kikig\holbertonschool-csharp\csharp-text_based_interface\InventoryManagement\InventoryManagement.Tests\obj\Debug\net8.0\InventoryManagement.Tests.csproj.AssemblyReference.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-text_based_interface\InventoryManagement\InventoryManagement.Tests\obj\Debug\net8.0\InventoryManagement.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikig\holbertonschool-csharp\csharp-text_based_interface\InventoryManagement\InventoryManagement.Tests\obj\Debug\net8.0\InventoryManagement.Tests.AssemblyInfoInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-text_based_interface\InventoryManagement\InventoryManagement.Tests\obj\Debug\net8.0\InventoryManagement.Tests.AssemblyInfo.cs
+C:\Users\kikig\holbertonschool-csharp\csharp-text_based_interface\InventoryManagement\InventoryManagement.Tests\obj\Debug\net8.0\InventoryManagement.Tests.csproj.CoreCompileInputs.cache
+C:\Users\kikig\holbertonschool-csharp\csharp-text_based_interface\InventoryManagement\InventoryManagement.Tests\obj\Debug\net8.0\InventoryManagement.Tests.sourcelink.json
