@@ -15,8 +15,8 @@ public class BaseClass
     /// </summary>
     public BaseClass()
     {
-        this.id = id;
-        this.date_created = DateTime.Now;
-        this.date_updated = DateTime.Now;
+        id = Guid.NewGuid().ToString(); // Generate a unique ID
+        date_created = DateTime.UtcNow; // Set the creation time
+        date_updated = DateTime.UtcNow; // Initialize update time
     }
 }
